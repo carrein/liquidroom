@@ -8,7 +8,7 @@ def separate_audio(
     input_dir: str = "./input",
     output_dir: str = "./artifacts",
     model_name: str = "BS-Roformer-SW.ckpt",
-    output_format: str = "WAV",
+    output_format: str = "mp3",
 ) -> None:
     os.makedirs(output_dir, exist_ok=True)
     print(f"Output directory: '{output_dir}'")
