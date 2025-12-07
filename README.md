@@ -38,7 +38,7 @@ Version: 0.40.0
 Summary: Easy to use audio stem separation, using various models from UVR trained primarily by @Anjok07
 ```
 
-5. Copy audio files to be split into stems into `/input` A default, sample audio file is made available.
+5. Copy audio files to be split into stems into `/input` A sample audio file ("chubby") is made available.
 
 6. Invoke script of choice
 
@@ -46,4 +46,4 @@ Summary: Easy to use audio stem separation, using various models from UVR traine
 python scripts/<your_script>.py
 ```
 
-7. Check `/artifacts` for stems output.
+7. Check `/artifacts` for stems output. The stems of the sample ("chubby") file are available here too.

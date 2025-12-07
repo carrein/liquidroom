@@ -1,5 +1,12 @@
+# Exclude everything
+*
 
-/*
-!/scripts/
-!/scripts/*
+# But include these specific files/folders
+!input/
+!input/chubby.flac
+!artifacts/
+!artifacts/chubby_BS-Roformer-SW_20251207/
+!artifacts/chubby_BS-Roformer-SW_20251207/*
+!scripts/
+!scripts/*
 !README.md
